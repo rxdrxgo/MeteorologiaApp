@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/etTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperatura"
+        android:textSize="120sp"
+        android:textColor="@color/orange"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:id="@+id/etViento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viento"
+        android:textSize="70sp"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:id="@+id/etHumedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/humedad"
+        android:textSize="150sp"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:id="@+id/etPresion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/presion"
+        android:textSize="50sp"
+        android:background="@color/grey"/>
+</LinearLayout>

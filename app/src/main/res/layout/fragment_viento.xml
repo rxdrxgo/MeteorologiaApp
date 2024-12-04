@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vistas.VientoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="35dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+
+                android:contentDescription="@string/imagen"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/meteorologia" />
+
+
+
+            <TextView
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_horizontal"
+                android:layout_marginVertical="50sp"
+                android:textSize="70sp"
+                android:id="@+id/textButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:text="@string/viento"
+                android:textColor="@color/white"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textButton"
+                android:textSize="70sp"
+                android:background="@color/grey"
+                android:layout_marginStart="50dp"/>
+
+
+            <TextView
+                android:id="@+id/velocidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/num"
+                android:layout_marginStart="20dp"
+                android:text="@string/km_h"
+                android:layout_below="@id/textButton"
+                android:textSize="60sp"
+                android:textColor="@color/white"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

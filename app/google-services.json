@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5049060555",
+    "project_id": "logindb-ef239",
+    "storage_bucket": "logindb-ef239.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5049060555:android:a4ffb381c561ea79849f4e",
+        "android_client_info": {
+          "package_name": "com.example.meteorologia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeL7m4IAoULzezFzpR39e_vjWNn0r4iIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

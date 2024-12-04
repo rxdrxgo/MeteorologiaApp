@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Ejemplo</string>
+    <string name="imagen">Imagen</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="rodrigo_gangas">Rodrigo Gangas</string>
+    <string name="titulo">Meteorologia</string>
+    <string name="sol">Sol</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="viento">Viento</string>
+    <string name="humedad">Humedad</string>
+    <string name="presion_atmosferica">Presion Atmosferica</string>
+    <string name="presion">Presion</string>
+    <string name="_1008_2">1008.2</string>
+    <string name="hpa">hpa</string>
+    <string name="_30">30</string>
+    <string name="c">°C</string>
+    <string name="_16">16</string>
+    <string name="km_h">Km/h</string>
+    <string name="porciento">%</string>
+    <string name="_60">60</string>
+    <string name="agregar_datos">Agregar datos</string>
+    <string name="guardar">Guardar</string>
+    <string name="volver">Volver</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="no_estas_registrado_registrate">¿No estas registrado? Registrate</string>
+    <string name="monitoreo_meteorol_gico">Monitoreo Meteorológico</string>
+    <string name="confirmar_contrase_a">Confirmar Contraseña</string>
+    <string name="registrar_usuario">Registrar Usuario</string>
+    <string name="correo_electronico">Correo electronico</string>
+    <string name="perfil">Perfil</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cambiar_contrase_a">Cambiar contraseña</string>
+    <string name="cambiar_contrasenha">Cambiar Contraseña</string>
+    <string name="contrase_a_actual">Contraseña actual</string>
+    <string name="contrase_a_nueva">Contraseña nueva</string>
+</resources>

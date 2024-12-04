@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_1"
+        android:title="@string/perfil"
+        android:enabled="true"
+        android:icon="@drawable/perfil"
+        />
+
+
+    <item
+        android:id="@+id/item_2"
+        android:title="@string/temperatura"
+        android:enabled="true"
+        android:icon="@drawable/sunny"
+        />
+
+    <item
+        android:id="@+id/item_3"
+        android:title="@string/humedad"
+        android:enabled="true"
+        android:icon="@drawable/humedad"
+        />
+
+
+
+    <item
+        android:id="@+id/item_4"
+        android:title="@string/viento"
+        android:enabled="true"
+        android:icon="@drawable/aire"
+        />
+
+    <item
+        android:id="@+id/item_5"
+        android:title="@string/presion"
+        android:enabled="true"
+        android:icon="@drawable/clock"
+        />
+
+</menu>
